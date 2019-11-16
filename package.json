@@ -1,6 +1,6 @@
 {
   "name": "snarkdown-loader",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "markdown loader based on snarkdown",
   "license": "ISC",
   "repository": "anikethsaha/snarkdown-loader",
@@ -40,7 +40,6 @@
   },
   "dependencies": {
     "loader-utils": "^1.2.3",
-    "schema-utils": "^2.5.0",
     "snarkdown": "^1.2.2"
   },
   "devDependencies": {

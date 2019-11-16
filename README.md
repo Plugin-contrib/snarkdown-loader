@@ -6,9 +6,6 @@
 
 [![npm][npm]][npm-url]
 [![node][node]][node-url]
-[![deps][deps]][deps-url]
-[![tests][tests]][tests-url]
-[![cover][cover]][cover-url]
 [![chat][chat]][chat-url]
 [![size][size]][size-url]
 
@@ -16,9 +13,7 @@
 
 ## Getting Started
 
-Its using [snarkdown](https://github.com/developit/snarkdown) for parsing the html.
-
-> I have a plan to add few more extended features like **highlighting**, **passing path instead of markdown code**, **Prettier html** and will add them soon. Few of these requires changes with the core snarkdown.
+A lightweight markdown loader using [`snarkdown`](https://github.com/developit/snarkdown)
 
 To begin, you'll need to install `snarkdown-loader`:
 
@@ -33,8 +28,6 @@ Then add the loader to your `webpack` config. For example:
 ```js
 import file from 'readme.md';
 ```
-
-<!-- isLoader ? use(this) : delete(isPlugin) -->
 
 **webpack.config.js**
 
@@ -56,6 +49,30 @@ module.exports = {
 ```
 
 And run `webpack` via your preferred method.
+
+## Example
+
+webpack.config.js
+
+```js
+module.exports = {
+  module: {
+    rules: [
+      {
+        test: /.md$/,
+        use: [
+          {
+            loader: 'html-loader', // Exports HTML as string
+          },
+          {
+            loader: `snarkdown-loader`, // converts the markdown to HTML
+          },
+        ],
+      },
+    ],
+  },
+};
+```
 
 ## Contributing
 
@@ -79,5 +96,5 @@ Please take a moment to read our contributing guidelines if you haven't yet done
 [cover-url]: https://codecov.io/gh/webpack-contrib/snarkdown-loader
 [chat]: https://img.shields.io/badge/gitter-webpack%2Fwebpack-brightgreen.svg
 [chat-url]: https://gitter.im/webpack/webpack
-[size]: https://packagephobia.now.sh/badge?p=snarkdown-loader
-[size-url]: https://packagephobia.now.sh/result?p=snarkdown-loader
+[size]: https://badgen.net/bundlephobia/min/snarkdown-loader
+[size-url]: https://badgen.net/bundlephobia/min/snarkdown-loader

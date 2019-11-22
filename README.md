@@ -8,6 +8,9 @@
 [![node][node]][node-url]
 [![chat][chat]][chat-url]
 [![size][size]][size-url]
+[![total-downloads][total-downloads]][total-downloads]
+![issues](https://img.shields.io/github/issues/Plugin-contrib/snarkdown-loader)
+[![GitHub license](https://img.shields.io/github/license/Plugin-contrib/snarkdown-loader)](https://github.com/Plugin-contrib/snarkdown-loader/blob/master/LICENSE)
 
 # snarkdown-loader
 
@@ -89,12 +92,13 @@ Please take a moment to read our contributing guidelines if you haven't yet done
 [node]: https://img.shields.io/node/v/snarkdown-loader.svg
 [node-url]: https://nodejs.org
 [deps]: https://david-dm.org/webpack-contrib/snarkdown-loader.svg
-[deps-url]: https://david-dm.org/webpack-contrib/snarkdown-loader
-[tests]: https://dev.azure.com/webpack-contrib/snarkdown-loader/_apis/build/status/webpack-contrib.snarkdown-loader?branchName=master
-[tests-url]: https://dev.azure.com/webpack-contrib/snarkdown-loader/_build/latest?definitionId=2&branchName=master
+[deps-url]: https://david-dm.org/plugin-contrib/snarkdown-loader
+[tests]: https://dev.azure.com/plugin-contrib/snarkdown-loader/_apis/build/status/plugin-contrib.snarkdown-loader?branchName=master
+[tests-url]: https://dev.azure.com/plugin-contrib/snarkdown-loader/_build/latest?definitionId=2&branchName=master
 [cover]: https://codecov.io/gh/webpack-contrib/snarkdown-loader/branch/master/graph/badge.svg
 [cover-url]: https://codecov.io/gh/webpack-contrib/snarkdown-loader
 [chat]: https://img.shields.io/badge/gitter-webpack%2Fwebpack-brightgreen.svg
 [chat-url]: https://gitter.im/webpack/webpack
 [size]: https://badgen.net/bundlephobia/min/snarkdown-loader
 [size-url]: https://badgen.net/bundlephobia/min/snarkdown-loader
+[total-downloads]: https://img.shields.io/npm/dt/snarkdown-loader.svg

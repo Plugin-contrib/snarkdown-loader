@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "markdown loader based on snarkdown",
   "license": "ISC",
-  "repository": "anikethsaha/snarkdown-loader",
-  "author": "anikethsaha",
+  "repository": "plugin-contrib/snarkdown-loader",
+  "author": "plugin-contrib",
   "homepage": "https://github.com/anikethsaha/snarkdown-loader",
   "bugs": "https://github.com/anikethsaha/snarkdown-loader/issues",
   "main": "dist/cjs.js",
@@ -68,5 +68,10 @@
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9"
   },
-  "keywords": []
+  "keywords": [
+    "webpack",
+    "webpack-loader",
+    "markdown",
+    "snarkdown"
+  ]
 }

@@ -83,6 +83,16 @@ Please take a moment to read our contributing guidelines if you haven't yet done
 
 [CONTRIBUTING](./.github/CONTRIBUTING.md)
 
+[MIT](./LICENSE)
+
+## Maintained by
+
+<img alt="pluggingIn logo" src="https://imgur.com/kjyrz79.png" width="250px" />
+
+## Author
+
+[Aniketh Saha](https://twitter.com/__ANIX__)
+
 ## License
 
 [MIT](./LICENSE)
